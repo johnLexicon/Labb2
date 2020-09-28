@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-part1, .form-part2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0.5em;
+}
+
+input[type=text], input[type=password] {
+    border: none;
+    background: #f1f1f1;
+    padding: 1em;
+    margin: 1em 0;
+    width: 250px;
+    border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    background-color: #ddd;
+}
+
+.reg-button {
+    background-color: #8790dc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    opacity: 0.8;
+    padding: 1em 0;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .form {
+        flex-direction: row;
+    }
+}
