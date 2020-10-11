@@ -77,7 +77,8 @@ input:focus {
     }
 
     .radioButtons {
-        margin-left: 2.1em;
         margin-top: 2em;
+        text-align: start;
+        margin-left: .3em;
     }
 }
