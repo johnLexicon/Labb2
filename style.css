@@ -68,7 +68,11 @@ input:focus {
     opacity: 0.8;
     padding: 1em 0;
     border-radius: 20px;
-    margin-top: .9em;
+    margin-top: 2.5em;
+}
+
+.reg-button:hover {
+    background-color: #555eaf;
 }
 
 @media screen and (min-width: 720px) {
