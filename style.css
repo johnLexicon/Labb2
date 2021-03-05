@@ -12,11 +12,12 @@ body {
 }
 
 h1{
-    margin: 2rem 0;
+    margin: 5rem 0 0 0;
     text-align: center;
 }
 
 .row {
+    margin-top: 8em;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
