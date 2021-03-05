@@ -31,6 +31,7 @@ h1{
 .formGroup {
     display: flex;
     flex-direction: column;
+    padding: 1rem 0;
 }
 
 input {
@@ -48,7 +49,6 @@ input:focus {
 }
 
 .radioButtons > span {
-    margin-right: 1rem;
     font-weight: 900;
 }
 
@@ -90,6 +90,9 @@ input:focus {
 @media screen and (min-width: 375px) {
     input {
         width: 370px;
+    }
+    .radioButtons > span {
+        margin-right: 1rem;
     }
 }
 
