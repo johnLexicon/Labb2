@@ -16,8 +16,8 @@ h1{
     text-align: center;
 }
 
-.row {
-    margin-top: 8em;
+.grid-container {
+    margin-top: 1.5em;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -98,8 +98,9 @@ input:focus {
 
 @media screen and (min-width: 768px) {
 
-    .row {
+    .grid-container {
         grid-template-columns: 1fr 1fr;
+        margin-top: 4rem;
     }
 
     .radioButtons {
@@ -115,7 +116,7 @@ input:focus {
 
 @media screen and (min-width: 1200px) {
 
-    .row {
+    .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
