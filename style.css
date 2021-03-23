@@ -1,122 +1,116 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
 
 body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #c6ccfd;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #c6ccfd;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    margin: 5rem 0 0 0;
-    text-align: center;
+h1 {
+  margin: 5rem 0 0 0;
+  text-align: center;
 }
 
 .grid-container {
-    margin-top: 1.5em;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    align-items: center;
-}
-
-.password {
-    grid-row-start: span 2;
+  margin-top: 1.5em;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
 .formGroup {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
 }
 
 input {
-    border: none;
-    background: #f1f1f1;
-    padding: 1em;
-    margin: 1em 0;
-    width: 250px;
-    border-radius: 10px;
+  border: none;
+  background: #f1f1f1;
+  padding: 1em;
+  margin: 1em 0;
+  width: 250px;
+  border-radius: 10px;
 }
 
 input:focus {
-    outline: none;
-    background-color: #ddd;
+  outline: none;
+  background-color: #ddd;
 }
 
 .radioButtons > span {
-    font-weight: 900;
+  font-weight: 900;
 }
 
 .radioButtons > label {
-    display:inline-block;
-    margin-top: 0.2rem;
+  display: inline-block;
+  margin-top: 0.2rem;
 }
 
 .radioButtons input {
-    width: auto;
-    margin-right: 1.5rem;
+  width: auto;
+  margin-right: 1.5rem;
 }
 
 .reg-button {
-    background-color: #8790dc;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    width: 150px;
-    opacity: 0.8;
-    padding: 1rem 0;
-    border-radius: 20px;
-    margin-top: 2.5rem;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  background-color: #8790dc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  opacity: 0.8;
+  padding: 1rem 0;
+  border-radius: 20px;
+  margin-top: 2.5rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .reg-button:hover {
-    background-color: #555eaf;
+  background-color: #555eaf;
 }
 
 .reg-button:focus {
-    outline: none;
+  outline: none;
 }
 
 .reg-button:active {
-    box-shadow: none;
+  box-shadow: none;
 }
 
 @media screen and (min-width: 375px) {
-    input {
-        width: 370px;
-    }
-    .radioButtons > span {
-        margin-right: 1rem;
-    }
+  input {
+    width: 370px;
+  }
+  .radioButtons > span {
+    margin-right: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+  }
 
-    .grid-container {
-        grid-template-columns: 1fr 1fr;
-        margin-top: 4rem;
-    }
+  .radioButtons {
+    text-align: start;
+    margin-left: 0.3em;
+  }
 
-    .radioButtons {
-        text-align: start;
-        margin-left: .3em;
-    }
-
-    .radioButtons > label {
-        display:inline-block;
-        margin-top: 1em;
-    }
+  .radioButtons > label {
+    display: inline-block;
+    margin-top: 1em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-    .grid-container {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
